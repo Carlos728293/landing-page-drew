@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@keyframes slide {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(-550px);
+  }
+}
+
+@utility slide {
+  animation: slide 12s linear infinite;
+}
+
+@layer utilities {
+  .fade-edges {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 10%,
+      black 90%,
+      transparent
+    );
+  }
+
+  @media (min-width: 1024px) {
+    .fade-edges {
+      mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 50%,
+        black 50%,
+        transparent
+      );
+    }
+  }
+}
+
+
+@utility animate-paused {
+  animation-play-state: paused;
+}
+
+@utility animate-running {
+  animation-play-state: running;
+}
