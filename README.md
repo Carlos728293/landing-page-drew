@@ -10,7 +10,7 @@ Este projeto inclui um **menu hambúrguer animado**, seções organizadas para a
 ## 🔗 Acesse o site
 
 👉 **Link do projeto:**  
-[landing-page-drew.vercel.app]
+https://landing-page-drew.vercel.app/
 
 ---
 
