@@ -1,9 +1,16 @@
-# 🎥 Drew – Landing Page para Agência de Marketing Digital
+# 🎥 Drew – Landing Page
 
 A **Drew** é uma landing page moderna, construída para apresentar e promover serviços de **Marketing Digital**, criada com foco em **conversão**, **rapidez**, **design limpo** e **responsividade total**.  
 Desenvolvida utilizando **React**, **Vite** e **Tailwind CSS**, oferece carregamento super rápido, UI consistente e uma experiência fluida tanto no mobile quanto no desktop.
 
 Este projeto inclui um **menu hambúrguer animado**, seções organizadas para apresentação dos serviços, CTA claro para contratação e elementos visuais profissionais.
+
+---
+
+## 🔗 Acesse o site
+
+👉 **Link do projeto:**  
+[landing-page-drew.vercel.app]
 
 ---
 
