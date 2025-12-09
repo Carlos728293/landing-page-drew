@@ -1,16 +1,108 @@
-# React + Vite
+# 🎥 Drew – Landing Page para Agência de Marketing Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Drew** é uma landing page moderna, construída para apresentar e promover serviços de **Marketing Digital**, criada com foco em **conversão**, **rapidez**, **design limpo** e **responsividade total**.  
+Desenvolvida utilizando **React**, **Vite** e **Tailwind CSS**, oferece carregamento super rápido, UI consistente e uma experiência fluida tanto no mobile quanto no desktop.
 
-Currently, two official plugins are available:
+Este projeto inclui um **menu hambúrguer animado**, seções organizadas para apresentação dos serviços, CTA claro para contratação e elementos visuais profissionais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Vite** (build tool super rápida)
+- **React JS**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Font Awesome** (ícones)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+![Preview da página](src/assets/design/mocap-drew.png)
+
+## 📁 Estrutura de Pastas
+
+```
+/
+├── index.html
+├── package.json
+├── vite.config.js
+├── postcss.config.js
+├── tailwind.config.js
+├── src/
+│ ├── assets/
+│ │ └── images/
+│ │ ├── logo.svg
+│ │ ├── mockup.png
+│ │ ├── hero-bg.jpg
+│ │ └── icons/
+│ │ ├── marketing.svg
+│ │ ├── social.svg
+│ │ └── ads.svg
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Services.jsx
+│ │ ├── CTA.jsx
+│ │ ├── Footer.jsx
+│ │ └── MenuMobile.jsx
+│ ├── styles/
+│ │ └── global.css
+│ ├── App.jsx
+│ └── main.jsx
+└── public/
+└── favicon.ico
+```
+
+---
+
+## 🧠 Funcionalidades
+
+- 📱 **Menu mobile com botão hambúrguer animado**  
+- ⚡ **Carregamento extremamente rápido usando Vite**  
+- 🎨 **UI moderna construída com Tailwind CSS**  
+- 🧩 **Componentização com React**  
+- 📐 **Layout totalmente responsivo (Mobile → Desktop)**  
+- 🧭 **Seções claras para serviços, benefícios e CTA principal**  
+- 🌟 **Design voltado para conversão (Landing Page profissional)**  
+- 🎯 **Perfeito para agências, freelancers e empresas de marketing** 
+
+---
+
+## 📦 Como usar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/Carlos728293/landing-page-drew.git
+   ```
+
+2. Navegue até o diretório:
+
+   ```bash
+   cd landing-page-drew
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+5. Abra no navegador:
+   ```bash
+   http://localhost:5173/
+   ```
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para utilizar, modificar e compartilhar!
+
+---
+
+### 💙 Feito com dedicação, tecnologia e estratégia digital.
